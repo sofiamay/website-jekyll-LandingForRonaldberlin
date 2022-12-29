@@ -1,0 +1,1 @@
+Static porfolio website built in Jekyll using the [Freelancer](https://github.com/jeromelachaud/freelancer-theme) theme.
