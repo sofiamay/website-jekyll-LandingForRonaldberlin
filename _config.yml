@@ -1,11 +1,11 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+title: Ronald Berlin Architect
+email: ronaldb@ronaldberlin.com
+url: https://github.com/sofiamay/website-ronaldberlin
+description: "Website for Ronald Berlin Architect"
+keywords: "Ronald Berlin, architect, residential, Princeton, Princeton NJ"
+skills: "Residential and Commercial Architect in Princeton, NJ"
+meta_author: Berlin Sofia
 
 # Google webmaster tools
 google_verify:
@@ -25,18 +25,17 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: bfced8 #light blue
+  primary-rgb: "191,206,216"
+  secondary: 080932 #dark blue
+  secondary-dark: c8d1d8 #grey
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
+  copyright: Ronald Berlin Architect 2023
+  location: Princeton, NJ
   social: Around the Web
   credits: Credits
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
@@ -52,11 +51,11 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 245 Jefferson Rd
+  - line: Princeton NJ, 08540
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Designed by <a href="http://github.com/sofiamay">Sofia Berlin</a>.'
 
 # Build settings
 markdown: kramdown
