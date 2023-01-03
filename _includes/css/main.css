@@ -112,8 +112,13 @@ header .container {
 
 header img {
     display: block;
-    padding-top: 20px;
     margin: 0 auto 20px;
+}
+
+@media(max-width:767px) {
+    header img {
+        padding-top: 30px;
+    }
 }
 
 header .intro-text {
