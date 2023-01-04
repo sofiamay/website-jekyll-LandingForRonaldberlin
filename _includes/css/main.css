@@ -101,7 +101,8 @@ hr.divider-primary {
 
 header {
     text-align: center;
-    color: #fff;
+/*    color: #{{ site.color.secondary }};*/
+    color: #{{ site.color.secondary }};
     background: #{{ site.color.primary }};
 }
 
@@ -112,7 +113,7 @@ header .container {
 
 header img {
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto 40px;
 }
 
 @media(max-width:767px) {
@@ -138,6 +139,7 @@ header .intro-text .name {
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+    color: #{{ site.color.secondary-dark }};
 }
 
 @media(min-width:768px) {
