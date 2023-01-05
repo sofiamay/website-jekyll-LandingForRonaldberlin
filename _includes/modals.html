@@ -35,6 +35,24 @@
                 <strong>{{ post.category }}</strong>
               </li>
               {% endif %}
+              {% if post.contractor %}
+              <li>Contractor:
+                {% assign postContractorWebsite = "  " %}
+                {% if post.contractor-website %}
+                  {% assign postContractorWebsite = post.contractor-website %}
+                {% endif%}
+                <strong><a href={{ postContractorWebsite }}>{{ post.contractor }}</a></strong>
+              </li>
+              {% endif %}
+              {% if post.photo-credit %}
+              <li>Photo Credit:
+                {% assign photoCreditWebsite = "  " %}
+                {% if post.photo-credit-website %}
+                  {% assign photoCreditWebsite = post.photo-credit-website %}
+                {% endif%}
+                <strong><a href={{ photoCreditWebsite }}>{{ post.photo-credit }}</a></strong>
+              </li>
+              {% endif %}
             </ul>
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
               Close</button>

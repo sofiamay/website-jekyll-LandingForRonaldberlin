@@ -1,0 +1,15 @@
+---
+layout: default
+modal-id: 1
+date: 2023-01-01
+img: davis.jpeg
+alt: image-alt
+project-date: April 2014
+client: Davis
+category: Residential Alterations
+contractor: Garretson Custom Builders
+contractor-website: https://www.garretsoncustombuilders.com
+photo-credit: Ricardo Barros
+photo-credit-website: https://www.recardobarros.com
+description: RBA created additions and alterations to a 1970s house in Princeton. This new symetrical composition welcomes the visitor through a sculptural entry portico composed of classical elements.
+---
