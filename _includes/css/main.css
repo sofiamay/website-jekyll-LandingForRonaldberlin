@@ -16,6 +16,14 @@ p.small {
     font-size: 16px;
 }
 
+div.subtext p {
+    font-size: 16px;
+}
+
+div.subtext p.item {
+    margin: 0px;
+}
+
 a,
 a:hover,
 a:focus,
@@ -235,6 +243,14 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+}
+
+.subsection {
+    margin: 40px 0px;
+}
+
+.subtext {
+    margin-bottom: 40px;
 }
 
 #portfolio {
