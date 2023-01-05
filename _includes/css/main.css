@@ -37,7 +37,7 @@ h6 {
 }
 
 hr.star-light,
-hr.star-primary {
+hr.star-primary, hr.star-ternary {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -48,8 +48,8 @@ hr.star-primary {
 }
 
 hr.star-light:after,
-hr.star-primary:after {
-    content: "\f005";
+hr.star-primary:after, hr.star-ternary:after {
+/*    content: "\f005";*/
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -59,11 +59,11 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #{{ site.color.secondary }}
 }
 
 hr.star-light:after {
-    color: #fff;
+    color: #{{ site.color.ternary }};
     background-color: #{{ site.color.primary }};
 }
 
@@ -73,6 +73,15 @@ hr.star-primary {
 
 hr.star-primary:after {
     color: #{{ site.color.secondary }};
+    background-color: #fff;
+}
+
+hr.star-ternary {
+    border-color: #{{ site.color.ternary }};
+}
+
+hr.star-ternary:after {
+    color: #{{ site.color.ternary }};
     background-color: #fff;
 }
 
@@ -139,7 +148,7 @@ header .intro-text .name {
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
-    color: #{{ site.color.secondary-dark }};
+    color: #{{ site.color.ternary }};
 }
 
 @media(min-width:768px) {
@@ -214,18 +223,22 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
+    color: #{{ site.color.secondary }};
     background: #{{ site.color.primary }};
 }
 
 @media(max-width:767px) {
     section {
-        padding: 75px 0;
+        padding: 75px 30px;
     }
 
     section.first {
         padding-top: 75px;
     }
+}
+
+#portfolio {
+    color: #{{ site.color.ternary }};;
 }
 
 #portfolio .portfolio-item {
@@ -314,9 +327,9 @@ section.success {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px #{{ site.color.secondary }};
     font-size: 20px;
-    color: #fff;
+    color: #{{ site.color.secondary }};
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -405,7 +418,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #{{ site.color.ternary }};
 }
 
 .btn-social {
@@ -506,7 +519,7 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    background-color: #{{ site.color.ternary }} !important;
 }
 
 /* Fix modal mouse wheel issues */
